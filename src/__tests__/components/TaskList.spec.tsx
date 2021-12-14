@@ -1,5 +1,6 @@
-import { render, screen, fireEvent, waitFor } from '@testing-library/react';
 import React from 'react';
+import { render, screen, fireEvent } from '@testing-library/react';
+
 import { TaskList } from '../../components/TaskList';
 
 describe('App Page', () => {
@@ -128,4 +129,4 @@ describe('App Page', () => {
     expect(addedSecondTask).toBeInTheDocument();
     expect(addedSecondTask).not.toHaveClass('completed');
   })
-})
+});
