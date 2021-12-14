@@ -7,5 +7,5 @@ export function Header() {
         <img src="/logo.svg" alt="to.do"/>
       </div>
     </header>
-  )
+  );
 }
