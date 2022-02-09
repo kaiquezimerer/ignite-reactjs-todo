@@ -19,7 +19,12 @@ Além de um editor de código como o [VSCode](https://code.visualstudio.com/).
     # Instale as dependências
     $ yarn install
     
-    # inicialize o projeto em modo de desenvolvimento
+    # Inicialize o projeto em modo de desenvolvimento
     $ yarn dev
     
     # A aplicação iniciará na porta :8080 - acesse http://localhost:8080
+    
+ ## Como executar os testes automatizados?
+ 
+    # Na pasta do projeto, execute o comando para rodar todos os testes
+    $ yarn test
